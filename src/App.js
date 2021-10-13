@@ -38,7 +38,6 @@ function App() {
             <ContactPage />
           </Route>
         </Switch>
-        <HomePage />
 
       </MainContentStyled>
     </div>
