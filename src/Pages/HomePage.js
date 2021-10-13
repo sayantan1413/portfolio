@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import Particles from 'react-particles-js';
+import Particle from '../Components/Particles';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -8,8 +8,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 function HomePage() {
     return (
         <HomePageStyled>
-            <div className="p-particles-js">
-                <Particles />
+            <div className="particle-container">
+                <Particle />
             </div>
             <div className="typography">
                 <h1>Hi I'm <span>Sayantan Bose</span></h1>
