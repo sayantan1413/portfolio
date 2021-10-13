@@ -5,6 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LanguageIcon from '@mui/icons-material/Language';
 import Typewriter from 'typewriter-effect';
 function HomePage() {
     return (
@@ -45,6 +46,7 @@ function HomePage() {
                     <a href="https://www.linkedin.com/in/sayantan-bose-14134a1a6/" className="icon i-linkedin" target="_blank"><LinkedInIcon /></a>
                     <a href="https://twitter.com/Sayantan1413" className="icon i-twitter" target="_blank"><TwitterIcon /></a>
                     <a href="https://github.com/sayantan1413" className="icon i-github" target="_blank"><GitHubIcon /></a>
+                    <a href="#" className="icon i-website" target="_blank"><LanguageIcon /></a>
                 </div>
             </div>
         </HomePageStyled>
