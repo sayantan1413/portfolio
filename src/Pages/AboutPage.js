@@ -6,6 +6,7 @@ import ImageSection from '../Components/ImageSection'
 function AboutPage() {
     return (
         <MainLayout>
+            
             <AboutStyled>
                 <Title title={'About Me'} span={'About Me'} />
                 <ImageSection />

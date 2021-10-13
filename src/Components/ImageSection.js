@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import resume from '../images/resume.jpg'
 import PrimaryButton from '../Components/PrimaryButton'
+import { Link }  from 'react-router-dom'
+import ResumePDF from '../files/sayantan_bose_resume.pdf'
 function ImageSection() {
     return (
         <ImageSectionStyled>
@@ -32,7 +34,7 @@ function ImageSection() {
                     </div>
                 
                 </div>
-                <PrimaryButton title={'Download CV'}/>
+                <Link to={ResumePDF} target="_blank" download><PrimaryButton title={'Download CV'} /></Link>
             </div>
         </ImageSectionStyled>
     )
