@@ -4,6 +4,7 @@ import { MainLayout } from '../styles/Layouts'
 import Title from '../Components/Title'
 import ImageSection from '../Components/ImageSection'
 import ServiceSection from '../Components/ServiceSection'
+import ReviewSection from '../Components/ReviewSection'
 function AboutPage() {
     return (
         <MainLayout>
@@ -13,6 +14,7 @@ function AboutPage() {
                 <ImageSection />
             </AboutStyled>
             <ServiceSection />
+            <ReviewSection />
         </MainLayout>
     )
 }
