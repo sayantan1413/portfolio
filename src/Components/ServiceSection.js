@@ -38,6 +38,7 @@ const ServiceSectionStyled = styled.section`
         display: flex;
         justify-content: space-between;
         margin-top: 5rem;
+        cursor: pointer;
     }
     .mid-card{
         margin: 0 1.2rem

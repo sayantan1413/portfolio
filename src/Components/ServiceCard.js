@@ -21,7 +21,7 @@ const ServiceCardStyled = styled.div`
     transition: all .4s ease-in-out;
     &:hover{
         border-top: 8px solid var(--primary-color);
-        transform: translateY(3px);
+        transform: translateY(8px);
     }
     .container{
         padding: 1.2rem;
