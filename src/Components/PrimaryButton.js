@@ -18,14 +18,20 @@ const PrimaryButtonStyled = styled.a`
     text-transform: uppercase;
     transition: all 0.4s ease-in-out;
     position: relative;
-    &:hover::after{
+    &:after{
         content: "";
         position: absolute;
         background-color: var(--white-color);
-        width: 100%;
+        width: 0;
         height: 0.2rem;
+        transition: all 0.4s ease-in-out;
         left: 0;
         bottom: 0;
+        opacity: 0.3;
+    }
+    &:hover::after{
+        width: 100%;
+        background-color: var(--white-color);
     }
 `;
 
