@@ -27,7 +27,7 @@ const PrimaryButtonStyled = styled.a`
         transition: all 0.4s ease-in-out;
         left: 0;
         bottom: 0;
-        opacity: 0.3;
+        opacity: 0.7;
     }
     &:hover::after{
         width: 100%;
