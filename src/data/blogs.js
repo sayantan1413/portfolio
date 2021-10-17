@@ -5,6 +5,13 @@ import blog4 from  '../images/blogs/blog4.svg';
 
 const blogs = [
     {
+        id: 1,
+        title: 'How To Work from Home',
+        date: '01',
+        month: 'April',
+        image: blog1
+    },
+    {
         id: 2,
         title: 'How To Use SEO Efficiently',
         date: '01',
