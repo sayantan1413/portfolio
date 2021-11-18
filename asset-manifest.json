@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.632bf9e4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.632bf9e4.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
+    "static/js/2.ebcba3e1.chunk.js": "/portfolio/static/js/2.ebcba3e1.chunk.js",
+    "static/js/2.ebcba3e1.chunk.js.map": "/portfolio/static/js/2.ebcba3e1.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/js/2.ebcba3e1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ebcba3e1.chunk.js.LICENSE.txt",
+    "static/media/avatar1.e75c613e.png": "/portfolio/static/media/avatar1.e75c613e.png",
+    "static/media/blog1.7ecbb78c.svg": "/portfolio/static/media/blog1.7ecbb78c.svg",
+    "static/media/blog2.09939351.svg": "/portfolio/static/media/blog2.09939351.svg",
+    "static/media/blog3.6291ee7c.svg": "/portfolio/static/media/blog3.6291ee7c.svg",
+    "static/media/blog4.60aa6cec.svg": "/portfolio/static/media/blog4.60aa6cec.svg",
+    "static/media/cv_css.81d94986.png": "/portfolio/static/media/cv_css.81d94986.png",
+    "static/media/design.8ecb3043.svg": "/portfolio/static/media/design.8ecb3043.svg",
+    "static/media/game-dev.20147858.svg": "/portfolio/static/media/game-dev.20147858.svg",
+    "static/media/intelligence.11bd2ab2.svg": "/portfolio/static/media/intelligence.11bd2ab2.svg",
+    "static/media/maya-3.8bd072e0.jpg": "/portfolio/static/media/maya-3.8bd072e0.jpg",
+    "static/media/maya-4.98e8029e.jpg": "/portfolio/static/media/maya-4.98e8029e.jpg",
+    "static/media/ms.08be9db5.png": "/portfolio/static/media/ms.08be9db5.png",
+    "static/media/react_styled.c23ef94e.png": "/portfolio/static/media/react_styled.c23ef94e.png",
+    "static/media/resume.127063d1.jpg": "/portfolio/static/media/resume.127063d1.jpg",
+    "static/media/sayantan_bose_resume.35226878.pdf": "/portfolio/static/media/sayantan_bose_resume.35226878.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37da8305.js",
+    "static/js/2.ebcba3e1.chunk.js",
+    "static/js/main.632bf9e4.chunk.js"
+  ]
+}
