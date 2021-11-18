@@ -95,7 +95,7 @@ const ContactPageStyled = styled.section`
                     top: -19px;
                     display: inline-block;
                     background-color: var(--background-dark-color);
-                    padding:0 0.5rem;
+                    padding:0 .5rem;
                     color: inherit;
                 }
                 input{
@@ -113,7 +113,7 @@ const ContactPageStyled = styled.section`
                     outline: none;
                     color: inherit;
                     width: 100%;
-                    padding: 0.8rem 1rem;
+                    padding: .8rem 1rem;
                 }
             }
             

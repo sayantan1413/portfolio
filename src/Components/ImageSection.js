@@ -41,9 +41,23 @@ function ImageSection() {
 }
 
 const ImageSectionStyled = styled.div`
-    display: flex;
     margin-top: 5rem;
-    .right-content {
+    display: flex;
+    @media screen and (max-width:1000px){
+        flex-direction: column;
+        .left-content{
+            margin-bottom: 2rem;
+        }
+    }
+    .left-content{
+        width: 100%;
+        img{
+            width: 95%;
+            object-fit: cover;
+        }
+    }
+    .right-content{
+        width: 100%;
         h4{
             font-size: 2rem;
             color: var(--white-color);
@@ -65,16 +79,9 @@ const ImageSectionStyled = styled.div`
             }
             .info-title, .info{
                 p{
-                    padding: 0.3rem 0;
+                    padding: .3rem 0;
                 }
             }
-        }
-    }
-    .left-content{
-        width: 100%;
-        img{
-            width: 90%;
-            object-fit: cover;
         }
     }
 `;

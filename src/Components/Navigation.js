@@ -36,14 +36,13 @@ function Navigation() {
 }
 
 const NavigationStyled = styled.nav`
-    display: flex;
+     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
     height: 100%;
     width: 100%;
     border-right: 1px solid var(--border-color);
-
     .avatar{
         width: 100%;
         border-bottom: 1px solid var(--border-color);
@@ -52,42 +51,42 @@ const NavigationStyled = styled.nav`
         img{
             width: 70%;
             border-radius: 50%;
-            border: 8px solid var(--border-color)
+            border: 8px solid var(--border-color);
         }
     }
-
     .nav-items{
         width: 100%;
         text-align: center;
         .active-class{
-            background-color: var(--primary-color);
+            background-color: var(--primary-color-light);
+            color: white;
         }
-        li {
+        li{
             display: block;
-            a {
+            a{
                 display: block;
-                padding: 0.45rem 0;
+                padding: .45rem 0;
                 position: relative;
-                z-index: 4;
+                z-index: 10;
                 text-transform: uppercase;
-                transition: all 0.4s ease-in-out;
+                transition: all .4s ease-in-out;
                 font-weight: 600;
                 letter-spacing: 1px;
                 &:hover{
                     cursor: pointer;
+                    color: var(--white-color);
                 }
-                &::before {
+                &::before{
                     content: "";
                     position: absolute;
                     bottom: 0;
                     left: 0;
                     width: 0;
                     height: 50%;
-                    background-color: var(--primary-color);
-                    transition: All 0.4s cubic-bezier(1, -0.2, 0.25, 0.95);
-                    z-index: 3;
+                    background-color: var( --primary-color);
+                    transition: All 0.4s cubic-bezier(1,-0.2,.25,.95) ;
                     opacity: 0.21;
-                    transform-origin: right;
+                    z-index: -1;
                 }
             }
             a:hover::before{
@@ -96,12 +95,11 @@ const NavigationStyled = styled.nav`
             }
         }
     }
-
-    footer {
+    footer{
         border-top: 1px solid var(--border-color);
         width: 100%;
-        p {
-            padding: 2rem 0;
+        p{
+            padding: 1.3rem 0;
             font-size: 1.1rem;
             display: block;
             text-align: center;

@@ -9,19 +9,19 @@ function ReviewItem({ text }) {
 }
 
 const ReviewItemStyled = styled.div`
-    padding: 2rem 1rem;
+     padding: 2rem 1rem;
     border-left: 6px solid var(--border-color);
     background-color: var(--background-dark-grey);
     position: relative;
-    width: 50%;
+    width: 100%;
     &:not(:first-child){
-        margin-left: 1rem;
+        
     }
-    &::after{ 
+    &::after{
         content: "";
         position: absolute;
         left: 2rem;
-        border-width: 0.8rem;
+        border-width: .8rem;
         top: 100%;
         border-style: solid;
         border-color: var(--background-dark-grey) transparent transparent var(--background-dark-grey);
