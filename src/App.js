@@ -16,7 +16,7 @@ import { IconButton } from '@mui/material';
 
 
 function App() {
-  const [theme, setTheme] = useState('dark-theme');
+  const [theme, setTheme] = useState('light-theme');
   const [checked, setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
 
@@ -25,11 +25,11 @@ function App() {
   }, [theme]);
 
   const themeToggler = () =>{
-    if(theme === 'light-theme'){
-      setTheme('dark-theme');
+    if(theme === 'dark-theme'){
+      setTheme('light-theme');
       setChecked(false)
     }else{
-      setTheme('light-theme');
+      setTheme('dark-theme');
       setChecked(true)
     }
   }
