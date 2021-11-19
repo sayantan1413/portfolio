@@ -13,7 +13,7 @@ function ImageSection() {
             <div className="right-content">
                 <h4>I am <span>Sayantan Bose</span></h4>
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                    A highly addictive technological enthusiast who is always open to learn any new skills and always eager to face new challenges.
                 </p>
                 <div className="about-info">
                     <div className="info-title">
@@ -28,9 +28,9 @@ function ImageSection() {
                         <p>: Sayantan Bose</p>
                         <p>: 20</p>
                         <p>: Indian</p>
-                        <p>: Bengali, English, Hindi</p>
-                        <p>: West Bengal, India</p>
-                        <p>: Web Developer</p>
+                        <p>: English, Hindi</p>
+                        <p>: India</p>
+                        <p>: FrontEnd Developer</p>
                     </div>
                 
                 </div>

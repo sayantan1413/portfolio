@@ -46,7 +46,7 @@ function ContactPage() {
                 <div className="right-content">
                     <ContactItem title={'Phone'} icon={phone} cont1={'+91-6290703292'} cont2={'+91-9903462424'} />
                     <ContactItem title={'Email'} icon={email} cont1={'sayantanbose2001@gmail.com'} cont2={'sayantanbose1413@gmail.com'} />
-                    <ContactItem title={'Address'} icon={location} cont1={'437 Pearabagan Road, West Bengal, India'} cont2={'United Kingdom'} />
+                    <ContactItem title={'Address'} icon={location} cont1={'437 Pearabagan Road, West Bengal'} cont2={'India'} />
                     
                 </div>
             </InnerLayout>
