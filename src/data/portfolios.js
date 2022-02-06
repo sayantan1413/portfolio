@@ -7,48 +7,39 @@ import img3 from '../images/portImages/maya-3.jpg';
 const portfolios = [
     {
         id: 1,
-        category: 'CSS',
+        category: 'React JS',
         image: css1,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Resume',
-        text: 'Created with only HTML and CSS.'
+        link1: 'https://github.com/sayantan1413/Travel-Advisor',
+        link2: 'https://github.com/sayantan1413/Travel-Advisor',
+        title: 'Travel Advisory',
+        text: 'Created using ReactJS, Axios, Material UI and Rapid API.'
     },
     {
         id: 2,
         category: 'Python',
         image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
+        link1: 'https://github.com/sayantan1413/Stackoverflow-Automation',
+        link2: 'https://github.com/sayantan1413/Stackoverflow-Automation',
+        title: 'StackoverFlow Automation',
+        text: 'An automation in which whenever a error in detected while interpreting the Python code the errors get automatically opened in the browser in stackoverflow'
     },
     {
         id: 3,
-        category: 'Javascript',
+        category: 'Java',
         image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
+        link1: 'https://github.com/sayantan1413/springboot-api-developement',
+        link2: 'https://github.com/sayantan1413/springboot-api-developement',
+        title: 'Courses API',
+        text: 'A Restful API endpoint for courses which is written in Spring Boot'
     },
     {
         id: 4,
-        category: 'Animation',
+        category: 'React JS',
         image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
-    },
-    {
-        id: 5,
-        category: 'Animation',
-        image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
+        link1: 'https://github.com/sayantan1413/Tesla-Clone',
+        link2: 'https://github.com/sayantan1413/Tesla-Clone',
+        title: 'Tesla Clone',
+        text: 'A Tesla Clone website made with React JS'
     },
     {
         id: 6,
@@ -59,15 +50,6 @@ const portfolios = [
         title: 'Responsive Portfolio Website',
         text: 'Created using different technologies such as Material UI, Styled-Components and more...'
     },
-    {
-        id: 7,
-        category: 'CSS',
-        image: css2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Microsoft Website Clone',
-        text: 'Created using HTML and CSS'
-    }
 ]
 
 export default portfolios;

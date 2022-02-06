@@ -14,9 +14,9 @@ function ServiceSection() {
             <div className="services">
                 <ServiceCard 
                 image={design} 
-                title={'Web Design'} 
-                paragraph={'I am a very good web designer'}/>
-                <div className="mid-card">
+                title={'Website Developement'} 
+                paragraph={'I am a full stack web developer (React js + Spring Boot)'}/>
+                {/*<div className="mid-card">
                 <ServiceCard 
                 image={intelligence} 
                 title={'Artificial Intelligence'} 
@@ -26,7 +26,7 @@ function ServiceSection() {
                 <ServiceCard 
                 image={gamedev} 
                 title={'Game Developer'} 
-                paragraph={'I am a very good game developer`'}/>
+                paragraph={'I am a very good game developer`'}/> */}
             </div>
            </ServiceSectionStyled> 
         </InnerLayout>

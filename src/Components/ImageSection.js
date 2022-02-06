@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import resume from '../images/resume.jpg'
+import resume from '../images/resumeimage.jpeg'
 import PrimaryButton from '../Components/PrimaryButton'
 import { Link }  from 'react-router-dom'
 import ResumePDF from '../files/sayantan_bose_resume.pdf'
